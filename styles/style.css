@@ -3,10 +3,12 @@
 :root {
   --inat-orage: #fe6501;
   --inat-blue: #007bdc;
+  --inat-black: #222;
 
   --max-reading-width: 40rem;
 
   font-family: "Open Sans", sans-serif;
+  color: var(--inat-black);
 }
 
 header {
@@ -84,4 +86,17 @@ h2 {
 .prizes-list dd {
   margin-left: 0;
   text-align: center;
+}
+
+.footer-links {
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+  font-size: 0.8rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.footer-links a {
+  color: var(--inat-black);
 }
