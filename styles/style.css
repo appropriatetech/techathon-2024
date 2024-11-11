@@ -74,18 +74,27 @@ h2 {
   display: grid;
   width: fit-content;
   margin: auto;
-  grid-template-columns: 1fr 1fr;
-  gap: 0 1rem;
+  grid-template-columns: auto 1fr;
   list-style: "🏆  ";
 }
 
 .prizes-list dt {
   font-weight: bold;
+  padding: 0.25rem;
 }
 
 .prizes-list dd {
   margin-left: 0;
+  padding: 0.25rem;
   text-align: center;
+}
+
+.prizes-list dt:nth-of-type(odd) {
+  background-color: #f0f0f0;
+}
+
+.prizes-list dd:nth-of-type(odd) {
+  background-color: #f0f0f0;
 }
 
 .footer-links {
