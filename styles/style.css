@@ -29,6 +29,7 @@ header h1 {
   padding: 0.5rem 1rem;
   background-color: var(--inat-blue);
   color: white;
+  font-size:1.2rem;
   font-weight: bold;
   text-decoration: none;
   border-radius: 0.5rem;
@@ -39,7 +40,7 @@ header h1 {
   background-color: var(--inat-orage);
 }
 
-header, main {
+header, main, footer {
   max-width: var(--max-reading-width);
   margin: auto;
   padding: 1rem;
