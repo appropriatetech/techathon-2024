@@ -76,6 +76,14 @@ em {
   font-weight: bold;
 }
 
+.key-date-time {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 0.9rem
+}
+
 .key-date-description {
   margin-top: 0;
 }
