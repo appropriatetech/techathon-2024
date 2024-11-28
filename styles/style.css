@@ -24,6 +24,12 @@ header h1 {
   font-size: 1.2rem;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+}
+
 .button {
   display: inline-block;
   width: 100%;
@@ -131,4 +137,25 @@ em {
 
 .footer-links a {
   color: var(--inat-black);
+}
+
+dl.key-date-description {
+  display: grid;
+  grid-template-areas: "label value";
+  column-gap: 0.5rem;
+  font-style: italic;
+}
+
+.key-date-description dt {
+  grid-area: "label";
+  text-align: right;
+}
+
+.key-date-description dt:after {
+  content: ":";
+}
+
+.key-date-description dd {
+  grid-area: "value";
+  margin: 0;
 }
